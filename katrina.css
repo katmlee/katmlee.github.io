@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+nav{
+  text-align: left;
+  padding-top: 40px;
+  color: white;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 40px;
+
+}
+
+nav li{
+  display: inline;
+}
+
+nav ul {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+  color: white !important;
+  text-decoration: none;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+a:hover{
+  color: rgba(208,224,239,.7);
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://static.pexels.com/photos/52910/pexels-photo-52910.jpeg");
+    /* Set a specific height */
+    min-height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("https://static.pexels.com/photos/170/apple-laptop-notebook-notes.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: rgba(208,224,239,.7);
+    font-family: 'Open Sans', sans-serif;
+}
+.hero span.title {
+    background-color: rgba(208,224,239,.7);
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h1{
+  letter-spacing: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0,0,0, 0.3)
+}
+
+h2{
+  letter-spacing: 10px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+h3{
+  padding-top: 20px;
+  letter-spacing: 10px;
+}
+
+.icons{
+  font-size: 2em;
+}
+.content{
+  height:325px;
+  background-color:rgba(208,224,239,.5);
+  font-size:36px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content2{
+  height:1000px;
+  background-color:rgba(208,224,239,.5);
+  font-size:36px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.about{
+  padding-top: 50px;
+  padding-right: 50px;
+  max-width: 30%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: lighter;
+  display: inline-block;
+  vertical-align: top;
+}
+.funFacts{
+  vertical-align: top;
+  padding-top: 50px;
+  max-width: 30%;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 16px;
+  display: inline-block;;
+}
+.funFacts ul{
+  list-style-type: none;
+}
+.funFacts li{
+  margin: 20px;
+}
+.projects{
+  width: 25%;
+  height: 325px;
+  background-color: rgba(115, 130, 144, 0.5);
+  display: inline-block;
+  text-align: center;
+}
+.projectTitle{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+  color: white;
+}
+.projects p{
+  font-size: 14px;
+  color: rgba(115, 130, 144, 1);
+}
+.flip {
+    height: 325px;
+
+    margin: 0 auto;
+}
+.flip img {
+    width: 300px;
+    height: auto;
+}
+.flip .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
+.user{
+  border-radius: 50%;
+}
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 100%;
+	height: 325px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+  padding-top: 50px;
+}
+
+.back p {
+  color: rgba(115, 130, 144, 1);
+  font-size: 20px;
+}
+.back a{
+  color: color: rgba(115, 130, 144, 1);
+}
+.back li{
+  color: color: rgba(115, 130, 144, 1);
+  font-size: 16px;
+  text-align: left;
+}
+.palate{
+  background-image: url("https://static.pexels.com/photos/3329/food-kitchen-cutting-board-cooking.jpg");
+  background-size: cover;
+}
+
+.trace{
+  background-image: url("http://i.dailymail.co.uk/i/pix/2015/10/09/10/2D39AA9500000578-0-image-a-3_1444382448583.jpg");
+  background-size: cover;
+}
+
+.h2o{
+  background-image: url("http://www.ilovestyle.com/sites/default/files/water_5.jpg");
+  background-size: cover;
+}
