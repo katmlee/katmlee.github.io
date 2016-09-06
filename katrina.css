@@ -23,7 +23,13 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-a{
+nav a{
+  color: white !important;
+  text-decoration: none;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+.icons a{
   color: white !important;
   text-decoration: none;
   padding: 10px;
@@ -75,21 +81,24 @@ a:hover{
 h1{
   letter-spacing: 10px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
   background-color: rgba(0,0,0, 0.3)
 }
 
 h2{
   letter-spacing: 10px;
   padding-bottom: 20px;
-  text-align: left;
+  padding-top: 20px;
+  text-align: center;
 }
 
 h3{
   padding-top: 20px;
   letter-spacing: 10px;
 }
-
+h5{
+  text-align: justify;
+}
 .icons{
   font-size: 2em;
 }
@@ -102,7 +111,7 @@ h3{
 }
 
 .content2{
-  height:1000px;
+  height:1200px;
   background-color:rgba(208,224,239,.5);
   font-size:36px;
   text-align: center;
@@ -218,7 +227,7 @@ h3{
   font-size: 20px;
 }
 .back a{
-  color: color: rgba(115, 130, 144, 1);
+  color: rgba(115, 130, 144, 1);
 }
 .back li{
   color: color: rgba(115, 130, 144, 1);
@@ -238,4 +247,23 @@ h3{
 .h2o{
   background-image: url("http://www.ilovestyle.com/sites/default/files/water_5.jpg");
   background-size: cover;
+}
+
+ul li{
+  padding-left: 20px;
+}
+img{
+  padding: 20px 5px;
+}
+.border{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(0,0,0, 0.3);
+  border-radius: 15px;
+}
+.contact{
+  padding-top: 145px;
+}
+.contact a{
+  color: #333;
 }

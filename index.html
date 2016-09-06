@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="katrina.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script type="jquery.js"></script>
+    <script type="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="jquery.flip.min.js"></script>
+    <script type="js/main.js"></script>
+
     <title>Document</title>
 </head>
 
@@ -54,58 +54,75 @@
     <div class="parallax2"></div>
     <div class="content2">
         <div class="col-md-12">
-          <h1>EXPERIENCE</h1>
+            <h1>EXPERIENCE</h1>
         </div>
-        <div class= "col-md-12">
-          <h2>PROJECTS</h2>
+        <div class="col-md-12">
+            <h2>SKILLS</h2>
+            <img id="html5" src="images/HTML5_1Color_Black.png" alt="">
+            <img id="css3" src="images/CSS3.png" alt="">
+            <img id="js" src="images/Javascript.png" alt="">
+            <img id="jquery" src="images/jquery.gif" alt="">
+            <img id="bootstrap" src="images/bootstrap_icon.png" alt="">
+            <img id="ruby" src="images/prog_ruby.png" alt="">
+            <img id="rails" src="images/rails.png" alt="">
+            <img id="github" src="images/github_logo.png" alt="">
+            <img id="google" src="images/google-developers-logo-vector.png" alt="">
+            <img id="backbone" src="images/backbonejs-logo.png" alt="">
+            <img id="postgresql" src="images/postgresql.png" alt="">
+            <img id="python" src="images/python-logo.png" alt="">
+            <img id="arduino" src="images/arduino.png" alt="">
+        </div>
+        <div class="col-md-12">
+            <h2>PROJECTS</h2>
         </div>
 
-      <div class="row">
-        <div class="flip-container col-md-4" ontouchstart="this.classList.toggle('hover');">
-            <div class="flipper">
-                <div class="front trace">
+        <div class="row">
+            <div class="flip-container col-md-4" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front trace">
 
-                    <div class="projectTitle">Trace
+                        <div class="projectTitle">Trace
+                        </div>
+
                     </div>
 
-                </div>
+                    <div class="back">
+                        <p>A platform for travelers to track their travels</p>
+                        <a href="https://travel-chronicles.herokuapp.com/">
+                            <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        <a href="https://github.com/katmlee/project1h;">
+                            <i class="fa fa-github" aria-hidden="true"></i></a>
 
-                <div class="back">
-                  <p>A platform for travelers to track their travels</p>
-                    <a href="https://travel-chronicles.herokuapp.com/">
-                        <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                    <a href="https://github.com/katmlee/project1h;">
-                        <i class="fa fa-github" aria-hidden="true"></i></a>
-
-                    <!-- Link to separate page for each -->
-                    <ul>
-                    <li>HTML5/CSS3/Javascript</li>
-                    <li>Ruby on Rails </li>
-                    <li>JQuery</li>
-                    <li>Facebook API</li>
-                    <li>Google Maps API</li>
-                    <li>Cloudinary</li>
-                  </ul>
+                        <!-- Link to separate page for each -->
+                        <ul>
+                            <li>HTML5/CSS3/Javascript</li>
+                            <li>Ruby on Rails </li>
+                            <li>JQuery</li>
+                            <li>Facebook API</li>
+                            <li>Google Maps API</li>
+                            <li>Cloudinary</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- <div class='front'> -->
-        <div class="flip-container col-md-4" ontouchstart="this.classList.toggle('hover');">
-            <div class="flipper">
-                <div class="front palate">
-                    <div class="projectTitle">Palate
+            <!-- <div class='front'> -->
+            <div class="flip-container col-md-4" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front palate">
+                        <div class="projectTitle">Palate
 
+                        </div>
                     </div>
-                </div>
 
-                <div class="back">
-                  <p>A tool for inspiring your inner chef</p>
+                    <div class="back">
+                        <p>A tool for inspiring your inner chef</p>
                         <a href="https://wdi15project2.herokuapp.com">
                             <i class="fa fa-external-link" aria-hidden="true"></i></a>
                         <a href="https://github.com/pkganti/project2">
                             <i class="fa fa-github" aria-hidden="true"></i></a>
-                            <ul>
+                        <ul>
                             <li>HTML5/CSS3/Javascript</li>
                             <li>JQuery</li>
                             <li>Ruby on Rails </li>
@@ -114,7 +131,7 @@
                             <li>Swipe Library</li>
                             <li>Cloudinary</li>
                             <li>Bootstrap</li>
-                          </ul>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -124,44 +141,78 @@
                         <div class="projectTitle">QuencH2O
                         </div>
                     </div>
-                        <div class="back">
-                          <p>An Iot tool to track water consumption.</p>
+                    <div class="back">
+                        <p>An Iot tool to track water consumption.</p>
 
-                            <a href="https://quench2o.herokuapp.com"><i class="fa fa-external-link" aria-hidden="true"></i></a>
-                            <a href="https://github.com/katmlee/SmartH20">
-                                <i class="fa fa-github" aria-hidden="true"></i></a>
-                              <ul>
-                                <li>Arduino Uno</li>
-                                <li>Cell Load</li>
-                                <li>HX711 Sensor</li>
-                                <li>Python</li>
-                                <li>HTML5/CSS3/Javascript</li>
-                                <li>JQuery</li>
-                                <li>Ruby on Rails </li>
-                              </ul>
-                        </div>
+                        <a href="https://quench2o.herokuapp.com"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        <a href="https://github.com/katmlee/SmartH20">
+                            <i class="fa fa-github" aria-hidden="true"></i></a>
+                        <ul>
+                            <li>Arduino Uno</li>
+                            <li>Cell Load</li>
+                            <li>HX711 Sensor</li>
+                            <li>Python</li>
+                            <li>HTML5/CSS3/Javascript</li>
+                            <li>Hightcharts.js</li>
+                            <li>Send Pulse Push Notifications</li>
+                            <li>Ruby on Rails </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
-          <div class= "col-md-12">
-            <h2>SKILLS</h2>
-          </div>
-          <div class= "col-md-12">
-            <h2>PROJECT MANAGEMENT</h2>
-          </div>
         </div>
-          <!-- <div class="parallax2"></div>
-          <div class="content row">
-            <div class = col-md-6>
-              <h4>Skills.</h4>
-              <i class="fa fa-css3" aria-hidden="true"></i>
 
+
+        <div>
+
+            <p id="skillInfo"></p>
+        </div>
+        <div class="col-md-12">
+
+            <h2>WORK EXPERIENCE</h2>
+
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-2">
+                <img src="images/Booking-Logo-PNG.png" alt="">
+                <h4>Key Account Manager</h4>
+                <h5>My experience with Booking.com opened my eyes to building successful and scalable products. I managed the top accounts in San Francisco and worked closely with the innovations and product teams.</h5>
             </div>
-            <div class = col-md-6>
-              <h4>Experience.</h4>
+            <div class="col-md-4">
+                <img src="images/checkmate_logo.png" alt="">
+                <h4>Product Partnerships Manager</h4>
+                <h5> I wore many hats and worked with multiple teams at this guest communications platform startup. I collaborated with external partners like Kayak and Expedia to integrate Checkmate's API platform.</h5>
             </div>
-          </div> -->
+        </div>
+        <div class="col-md-12">
+
+            <a href="images/KatrinaLeeResume_2016_AU.pdf" download>
+                <h4 class='border col-md-4 col-md-offset-4'>Click here for Katrina's resume</h4>
+            </a>
+        </div>
+    </div>
+    <div class="parallax2"></div>
+    <div class="content">
+        <div class="col-md-12">
+            <h1>CONTACT</h1>
+        </div>
+        <div class="row contact">
+            <h4><a href="mailto:katrinamarielee@gmail.com"><i class="fa fa-envelope" aria-hidden="true"> </i> katrinamarielee@gmail.com</a> 
+              </h4>
+            <h4><i class="fa fa-phone" aria-hidden="true"></i> +61.451.289.109
+              </h4>
+
+              <h4>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i> +1.609.216.5174
+            </h4>
+
+              <h4>
+            <i class="fa fa-skype" aria-hidden="true"></i> katrina.marie.lee
+
+              <h4>
+
+        </div>
+    </div>
 </body>
 
 </html>
