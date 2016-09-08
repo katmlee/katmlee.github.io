@@ -171,7 +171,7 @@ h5{
     height: auto;
 }
 .flip .back {
-    background: #2184cd;
+    background:#2184cd;
     color: #fff;
     text-align: center;
 }
@@ -219,7 +219,6 @@ h5{
 /* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
-  padding-top: 50px;
 }
 
 .back p {
@@ -266,4 +265,19 @@ img{
 }
 .contact a{
   color: #333;
+}
+#skillContent{
+  background-color: rgba(115, 130, 144, 1);
+  color:white;
+  font-size: 18px;
+  padding: 10px 50px 10px 50px;
+  margin-top: 20px;
+}
+
+.back li{
+  list-style-type: none;
+  color: rgba(115, 130, 144, 1);
+}
+.back a{
+  text-decoration: underline;
 }
