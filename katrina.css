@@ -98,12 +98,12 @@ h3{
 }
 h5{
   text-align: justify;
+  font-family: 'Open Sans', sans-serif;
 }
 .icons{
   font-size: 2em;
 }
 .content{
-  height:325px;
   background-color:rgba(208,224,239,.5);
   font-size:36px;
   text-align: center;
@@ -111,7 +111,6 @@ h5{
 }
 
 .content2{
-  height:1200px;
   background-color:rgba(208,224,239,.5);
   font-size:36px;
   text-align: center;

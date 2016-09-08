@@ -1,14 +1,4 @@
 $(document).ready(function(){
-$(function(){
-    $(".flip").flip({
-        trigger: 'hover'
-    });
-});
-$('#html5').hover(function(){
-      console.log('im working');
-    // $('#skillInfo').text('My name is kat')
-  }
-);
 var skills = {
   html5: "Got to love the fundamentals. I strive to structure my HTML with clarity and would like to work on ensuring accessibility in my code. ",
   css3: "I love the simplicity and power of css. I've also used SASS in my projects.",
