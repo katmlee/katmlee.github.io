@@ -1,0 +1,14 @@
+.user{
+  border-radius: 50%;
+}
+
+.persona{
+  text-align: center;
+}
+.persona h4, p{
+  text-align: justify;
+}
+iframe{
+  width: 100%;
+  height: 500px;
+}
