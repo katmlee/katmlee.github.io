@@ -266,6 +266,7 @@ img{
   color: #333;
 }
 #skillContent{
+  height:auto;
   background-color: rgba(115, 130, 144, 1);
   color:white;
   font-size: 18px;

@@ -23,7 +23,7 @@ $("img").mouseover( function() {
 $("img").mouseleave( function() {
   var skill = $(this).attr("id");
   $('#skillContent').slideUp(function() {
-    $('#skillContent').hide();
+    $('#skillContent').stop();
   });
 });
 });
