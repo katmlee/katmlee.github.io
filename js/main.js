@@ -12,7 +12,7 @@ var skills = {
   backbone: "Backbone was a great introduction to front-end frameworks. Although it's a bit dated compared to today's hot frameworks, it's a great starting point to learning newer frameworks like React.",
   postgresql: "I often use PostgreSQL because of its strong open-source technology and compatability with Heroku.",
   python: "I just scratched the surface with Python and utilized it with my iot project. I'd love a deeper dive into Python.",
-  arduino: "The Arduino was a great introduction to playing around with hardware. I found the Arduino documentation and community extremely helpful. I'm excited for my next Arduino project! Let me know if you'd like to collaborate!"
+  arduino: "The Arduino was a great introduction to playing around with hardware. I found the Arduino documentation and community extremely helpful. I'm excited for my next Arduino project!"
 
 };
 

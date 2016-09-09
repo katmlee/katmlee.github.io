@@ -266,11 +266,12 @@ img{
   color: #333;
 }
 #skillContent{
-  height:auto;
+  height: auto;
   background-color: rgba(115, 130, 144, 1);
   color:white;
   font-size: 18px;
-  padding: 10px 50px 10px 50px;
+  padding: 30px 50px;
+  vertical-align: middle;
   margin-top: 20px;
 }
 
