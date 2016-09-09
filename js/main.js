@@ -18,11 +18,12 @@ var skills = {
 
 $("img").mouseover( function() {
   var skill = $(this).attr("id");
-  $('#skillContent').text(skills[skill]);
-  console.log(skills[skill]);
+  $('#skillContent').html(skills[skill]).slideDown();
 });
 $("img").mouseleave( function() {
   var skill = $(this).attr("id");
-  $('#skillContent').text(" ");
+  $('#skillContent').slideUp(function() {
+    $('#skillContent').hide();
+  });
 });
 });
