@@ -4,69 +4,205 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="palate.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <script src="jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="jquery.flip.min.js"></script>
 
-    <title>Document</title>
+    <title>Palate UX Case Study</title>
 </head>
 
 <body>
     <div class="container">
-    <div class="hero">
-      <h1> Case Study: Palate</h1>
-      <h4>A tool for everyday cooks to search, store and clip recipes</h4>
-      <h3>the problem | the research | the solution</h3>
-    </div>
-    <div class="row col-md-12">
-        <h2>The Problem.</h2>
+        <div class="hero">
+            <h1> Case Study: Palate</h1>
+            <h4>A tool for everyday cooks to search, store and clip recipes</h4>
+            <h3><a href="#problem">the problem </a>| <a href="#research">the research</a> | <a href="#approach">the approach </a>| <a href="#solution">the solution</a></h3>
+        </div>
+        <div id="problem" class="row col-md-12">
+            <h2>The Question.</h2>
 
-        <br> What do I want to cook for dinner?
-          User Problem: Lack of time to plan
-    </div>
-    <div class="row col-md-12">
-        <h2>The Research.</h2>
-    <p>In an effort to incorporate UX principles to our web development course, we conducted five user interviews and administered a survey to 34 participants. The interviews helped us gain a better understanding of our user's painpoints and behaviors. We designed our product based on these findings.</p>
-    </div>
-    <div class="row col-md-12">
-      <h3>Interviews</h3>
-    </div>
-    <div class="row col-md-12">
-        <div class="persona col-md-4">
-          <img src="images/gemma.jpg" class="user">
-          <div class="personaText">
-            <h4>Gemma, 29 <br> Young Professional</h4>
-            <hr>
-            <p>"I started cooking for myself and I feel great." Gemma is an organized and busy young professional. She tries to cook at least 5 times a week becase she feels healthier knowing what goes into her meals. She prepares for her meals weekly and has as an A4 binder with printed recipes clipped in. Written grocery-list in hand, she shops for her groceries early on Saturday mornings before the store gets busy. She also googles for inspiration on uses sites like Taste.com. She hates cooking sites with too many ads but enjoys ones with community engagement. Often she browses for recipes while communting for work and even emails herself the recipes she likes as reminders for later. She finds that her process is currently time consuming and very manual. </p>
-          </div>
+            <br> What do I want to cook for dinner... or for the party... or for my kids... or for my date? 
         </div>
-
-        <div class="persona col-md-4">
-          <img src="images/Nancy.jpeg" class="user">
-          <div class="personaText">
-            <h4>Nancy, 50 <br> Working Mom</h4>
-            <hr>
-            <p>Nancy is a working mom and has four mouths to please. She prefers cooking to eating out because she knows what's going into the meals and she can save money. To change it up, she goes online, usually on mobile during her commute or at the grocery store, to look up recipes with short prep time and good ratings with the ingredients she has on hand. Food Network or All Recipes are her go-to sites because of the variety and user ratings.She loves watching cooking shows to get inspired, especially when cooking for large family gatherings. She's motivated by cooking dishes that people love but is also easy to make. Prep and cleaning is painful so she looks for recipes that are very efficient and provide tips to cut time. To reuse a recipe she'll either re-google it or scour messages from family members. </p>
-          </div>
-        </div>
-        <div class="persona col-md-4">
-          <img src="images/fatima.jpg" class="user">
-          <div class="personaText">
-            <h4>Fatima, 36 <br> Social Sharer</h4>
-            <hr>
-            <p>Fatima is glued to her smartphone. She loves being a thought leader on social media and often shares food videos from sources like TasteMade and Food Network on her Facebook account. This is her way of connecting with her online community and spreading positivity. Cooking is an important way to connect with her daughter, who wants to be a chef. Experimenting with new and fun recipes is a creative outlet to bring them together.She cooks to be healthier and likes content that provides context about her food. However, planning her family's meals can be really hard as it's based on their tight schedule. Prepwork is also a pain, so she looks for easy and fast recipes that require minimal cleanup and shortcuts.</p>
-          </div>
-        </div>
+        <div id="research">
+        <div class="row col-md-12">
+            <h2>The Research.</h2>
+            <p>In an effort to incorporate UX principles to our web development course, we conducted five user interviews and administered a survey to 34 participants. The interviews helped us gain a better understanding of our user's painpoints and behaviors.
+                We designed our product based on these findings.</p>
         </div>
         <div class="row col-md-12">
-          <h3>Survey Results</h3>
-          <iframe src="https://www.getfeedback.com/s/19hLVkXY/6"></iframe>
+            <h3>Interviews</h3>
+        </div>
+        <div class="row col-md-12">
+            <div class="persona col-md-4">
+                <img src="images/gemma.jpg" class="user">
+                <div class="personaText">
+                    <h4>Gemma, 29 <br> Young Professional</h4>
+                    <hr>
+                    <p>"I started cooking for myself and I feel great." Gemma is an organized and busy young professional. She tries to cook at least 5 times a week becase she feels healthier knowing what goes into her meals. She prepares for her meals weekly
+                        and has as an A4 binder with printed recipes clipped in. Written grocery-list in hand, she shops for her groceries early on Saturday mornings before the store gets busy. She also googles for inspiration on uses sites like Taste.com.
+                        She hates cooking sites with too many ads but enjoys ones with community engagement. Often she browses for recipes while communting for work and even emails herself the recipes she likes as reminders for later. She finds that her
+                        process is currently time consuming and very manual. </p>
+                </div>
+            </div>
+
+            <div class="persona col-md-4">
+                <img src="images/Nancy.jpeg" class="user">
+                <div class="personaText">
+                    <h4>Nancy, 50 <br> Working Mom</h4>
+                    <hr>
+                    <p>Nancy is a working mom and has four mouths to please. She prefers cooking to eating out because she knows what's going into the meals and she can save money. To change it up, she goes online, usually on mobile during her commute or
+                        at the grocery store, to look up recipes with short prep time and good ratings with the ingredients she has on hand. Food Network or All Recipes are her go-to sites because of the variety and user ratings.She loves watching cooking
+                        shows to get inspired, especially when cooking for large family gatherings. She's motivated by cooking dishes that people love but is also easy to make. Prep and cleaning is painful so she looks for recipes that are very efficient
+                        and provide tips to cut time. To reuse a recipe she'll either re-google it or scour messages from family members. </p>
+                </div>
+            </div>
+            <div class="persona col-md-4">
+                <img src="images/fatima.jpg" class="user">
+                <div class="personaText">
+                    <h4>Fatima, 36 <br> Social Sharer</h4>
+                    <hr>
+                    <p>Fatima is glued to her smartphone. She loves being a thought leader on social media and often shares food videos from sources like TasteMade and Food Network on her Facebook account. This is her way of connecting with her online community
+                        and spreading positivity. Cooking is an important way to connect with her daughter, who wants to be a chef. Experimenting with new and fun recipes is a creative outlet to bring them together.She cooks to be healthier and likes
+                        content that provides context about her food. However, planning her family's meals can be really hard as it's based on their tight schedule. Prepwork is also a pain, so she looks for easy and fast recipes that require minimal cleanup
+                        and shortcuts.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row col-md-12">
+            <h3>Survey Results</h3>
+            <iframe src="https://www.getfeedback.com/s/19hLVkXY/6"></iframe>
+        </div>
+        <div class="row col-md-12">
+            <h3>Research Conclusion</h3>
+            <h4>User Problem</h4>
+            <div class="row researchConclusion">
+              <div class="col-md-2 col-md-offset-2">
+                <h4>Mobile Matters Most</h4>
+                <hr>
+              </div>
+              <div class="col-md-2 col-md-offset-1">
+                <h4>Manual Processes are a Pain</h4>
+                <hr>
+              </div>
+              <div class="col-md-2 col-md-offset-1">
+                <h4>Diverse Content and Community</h4>
+                <hr>
+              </div>
+            </div>
+            <div class="row researchConclusion">
+              <div class="col-md-2 col-md-offset-2">
+                <img src="images/mobile.png">
+                <p>Develop for mobile first</p>
+              </div>
+              <div class="col-md-2 col-md-offset-1">
+                <img src="images/chrome.png">
+                <p>Painless bookmarking</p>
+              </div>
+              <div class="col-md-2 col-md-offset-1">
+                <img src="images/star.png" alt="">
+                <p>Community ratings</p>
+              </div>
+            </div>
+            <div class="row researchConclusion">
+              <div class="col-md-2 col-md-offset-2">
+                <img src="images/swipe.png">
+                <p>Incorporate mobile interactions</p>
+              </div>
+              <div class="col-md-2 col-md-offset-1">
+                <img src="images/add.png">
+                <p>Easily add new recipes</p>
+              </div>
+              <div class="col-md-2 col-md-offset-1">
+                <img src="images/allrecipes_icon.png" alt="">
+                <p>Coverage of most popular websites</p>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div id="approach">
+        <div class="col-md-12">
+            <h2>The Approach.</h2>
+            <h4>In respect to lean UX principles, our team mapped out the user flow, wireframed and prototyped a MVP and followed an agile process.</h4>
+            <h3>User Flow</h3>
+            <div class="col-sm-12 col-md-8 col-md-offset-2 userFlow">
+              <img src="images/palate_userflow.png" alt="">
+            </div>
+            <div class="col-sm-0 col=md-2"></div>
+
+            <br>
+            <div class="row col-md-12">
+              <h3>Wireframing</h3>
+              <div></div>
+              <!-- <div class="col-md-5 wireframe1"></div> -->
+              <div class="col-sm-12 col-md-8 col-md-offset-2 userFlow">
+                <img src="images/wireframes_final.png" alt="">
+              </div>
+            </div>
+          </div>
+            <h3>High Fidelity Prototyping and Testing</h3>
+            <p>Prototyped with Proto.io. We found in testing our product that people really wanted a mobile app feel with natural interactions like swiping on recipe cards.</p>
+            <div class="row prototype">
+                <img src="images/palate_login.png" class="col-md-3" />
+                <img src="images/Palate2.png" class="col-md-3" />
+                <img src="images/palate3.png" class="col-md-3" //>
+                <img src="images/palate4.png" class="col-md-3" //>
+                <!-- 4 mobile screenshots of the prototype -->
+            </div>
+            <h3>Scrum Implementation</h3>
+
+            <div class="row">
+              <div class="col-md-4">
+
+                <p>We applied priciples of Scrum to our development process. By conducting daily stand-ups and implementing and prioritizing a product backlog, we were able to work together efficiently and communicatively. We used good ole post-it notes and
+                    Trello. </p>
+              </div>
+              <div class="col-md-3 scrum">
+              </div>
+              <div class="col-md-3 col-md-offset-1 scrum2">
+              </div>
+            </div>
+        </div>
+        <div id="solution">
+        <div class="row col-md-12">
+            <h2>The Solution.</h2>
+            <a href="https://wdi15project2.herokuapp.com/"> Check out Palate Live!</a>
+            <a href="https://github.com/pkganti/project2">Fork our code</a>
+            <h4>Demo Video</h4>
+            <div class="col-sm-12 col-md-10 col-md-offset-1">
+              <iframe src="" frameborder="0"></iframe>
+            </div>
+            <h4>Technology Stack</h4>
+            <div class="col-md-12">
+                <img id="html5" src="images/HTML5_1Color_Black.png" alt="">
+                <img id="css3" src="images/CSS3.png" alt="">
+                <img id="js" src="images/Javascript.png" alt="">
+                <img id="jquery" src="images/jquery.gif" alt="">
+                <img id="bootstrap" src="images/bootstrap_icon.png" alt="">
+                <img id="ruby" src="images/prog_ruby.png" alt="">
+                <img id="rails" src="images/rails.png" alt="">
+                <img id="github" src="images/github_logo.png" alt="">
+                <img id="google" src="images/google-developers-logo-vector.png" alt="">
+                <img id="cloudinary" src="images/cloudinary.png" alt="">
+                <img id="postgresql" src="images/postgresql.png" alt="">
+                <img id="heroku" src="images/heroku.png" alt="">
+
+            </div>
+            <ul>
+              Rails Gem
+              <li>bcrypt</li>
+              <li>nokogiri</li>
+              <li>ratyrate</li>
+              <li>disqus</li>
+              <li>swipe</li>
+            </ul>
+          </div>
+        </div>
         </div>
     </div>
 </body>

@@ -12,3 +12,41 @@ iframe{
   width: 100%;
   height: 500px;
 }
+.prototype{
+  text-align: center;
+}
+
+.researchConclusion{
+  text-align: center;
+}
+
+.userFlow img{
+  width: 100%;
+}
+/*.userFlow{
+  width:100%;
+  background-image: url("images/palate_userflow.png");
+  background-size: cover;
+
+}*/
+.wireframe1{
+  background-image: url("images/Tripti_wireframe.JPG");
+  background-size: cover;
+  height: 400px;
+}
+.wireframe2{
+  background-image: url("images/wireframes_final.png");
+  background-size: cover;
+  width: 100%;
+  height: 460px;
+}
+.scrum{
+  background-image: url("images/scrum.JPG");
+  background-size: cover;
+  height: 300px;
+}
+.scrum2{
+  background-image: url("images/Tripti_wireframe.JPG");
+  background-size: cover;
+  height: 300px;
+}
