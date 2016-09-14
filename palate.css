@@ -2,6 +2,10 @@
   border-radius: 50%;
 }
 
+h3{
+  padding: 20px 0px;
+}
+
 .persona{
   text-align: center;
 }
@@ -46,7 +50,15 @@ iframe{
   height: 300px;
 }
 .scrum2{
-  background-image: url("images/Tripti_wireframe.JPG");
+  background-image: url("images/standup.JPG");
   background-size: cover;
   height: 300px;
+}
+
+#solution a{
+  font-size: 2em;
+  text-align: center;
+}
+.center{
+  text-align: center;
 }
