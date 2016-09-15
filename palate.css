@@ -1,7 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body{
+  font-family:'PT Sans Narrow', sans-serif !important;
+
+}
+.parallax {
+    /* The image used */
+    background-image: url("https://static.pexels.com/photos/3329/food-kitchen-cutting-board-cooking.jpg");
+    /* Set a specific height */
+    min-height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero{
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.hero a{
+  color: white;
+}
 .user{
   border-radius: 50%;
 }
-
+h2{
+  background-color: #5e7028;
+  color: white !important;
+  padding: 20px 0px;
+  text-align: center;
+  width: 100% !important;
+}
 h3{
   padding: 20px 0px;
 }
@@ -26,6 +63,7 @@ iframe{
 
 .userFlow img{
   width: 100%;
+  padding-bottom: 20px;
 }
 /*.userFlow{
   width:100%;
@@ -33,6 +71,7 @@ iframe{
   background-size: cover;
 
 }*/
+
 .wireframe1{
   background-image: url("images/Tripti_wireframe.JPG");
   background-size: cover;
