@@ -260,7 +260,8 @@ img{
   border-radius: 15px;
 }
 .contact{
-  padding-top: 145px;
+  padding: 145px 0px 100px 0px;
+
 }
 .contact a{
   color: #333;
