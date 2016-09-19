@@ -287,7 +287,8 @@ img{
 
 button{
   border-radius: 15px;
-  font-size: 18px;
+  font-size: 20px !important;
+  padding: 25px;
 
 }
 
