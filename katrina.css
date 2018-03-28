@@ -41,7 +41,7 @@ a:hover{
 
 .parallax {
     /* The image used */
-    background-image: url("https://static.pexels.com/photos/52910/pexels-photo-52910.jpeg");
+    background-image: url("images/lightbulb.jpg");
     /* Set a specific height */
     min-height: 600px;
     /* Create the parallax scrolling effect */
@@ -52,7 +52,7 @@ a:hover{
 }
 .parallax2 {
     /* The image used */
-    background-image: url("https://static.pexels.com/photos/170/apple-laptop-notebook-notes.jpg");
+    background-image: url("images/team.jpg");
     /* Set a specific height */
     min-height: 500px;
     /* Create the parallax scrolling effect */
@@ -103,14 +103,11 @@ h5{
 .icons{
   font-size: 2em;
 }
-.content{
-  background-color:rgba(208,224,239,.5);
-  font-size:36px;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
+.content1{
+  height: 400px;
 }
 
-.content2{
+.content{
   background-color:rgba(208,224,239,.5);
   font-size:36px;
   text-align: center;
@@ -119,7 +116,7 @@ h5{
 .about{
   padding-top: 50px;
   padding-right: 50px;
-  max-width: 30%;
+  /* max-width: 30%; */
   margin: 0 auto;
   text-align: justify;
   font-size: 16px;
@@ -130,7 +127,7 @@ h5{
 .funFacts{
   vertical-align: top;
   padding-top: 50px;
-  max-width: 30%;
+  /* max-width: 30%; */
   margin: 0 auto;
   text-align: left;
   font-weight: lighter;
@@ -233,7 +230,7 @@ h5{
   text-align: left;
 }
 .palate{
-  background-image: url("https://static.pexels.com/photos/3329/food-kitchen-cutting-board-cooking.jpg");
+  background-image: url("images/cooking.jpg");
   background-size: cover;
 }
 
@@ -251,7 +248,7 @@ ul li{
   padding-left: 20px;
 }
 img{
-  padding: 20px 5px;
+  padding: 10px 5px;
 }
 .border{
   margin-top: 20px;
